@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Page style -->
+    <link rel="stylesheet" href="style.css" />
+    <!----===== Font Awesome CSS ===== -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>JavaScript Onclick Event</title>
+  </head>
+
+  <body>
+    <div></div>
+
+    <script>
+      // JavaScript For in Loop
+
+      var data = {
+        firstName: "Shivansh",
+        lastName: "Devrukhkar",
+        age: 5,
+        email: "test1@test.com",
+      };
+
+      // document.write(data.firstName + "<br />" + data.lastName + "<br />" + data.age + "<br />" + data.email);
+
+      for (var value in data) {
+        document.write(value + ": " + data[value] + "<br/>");
+      }
+    </script>
+  </body>
+</html>
